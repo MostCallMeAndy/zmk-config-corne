@@ -22,7 +22,7 @@
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
    &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
+   &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RET
                   &kp LGUI &mo 1 &kp BSPC  &kp SPACE &mo 2 &kp RALT
                         >;
                 };
@@ -34,9 +34,9 @@
 // | SHFT |BTCLR| BT0 | BT1 | BT2 | BT3 |   |  *  |  1  |  2  |  3  |  /  |     |
 //                    | GUI |     | BSP |   |     |  0  |  .  |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &kp BSLH
+   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6    &kp N7   &kp N8 &kp N9   &kp N0    &kp BSLH
    &kp LCTRL  &none        &none        &none        &none        &none          &kp PLUS  &kp N4   &kp N5 &kp N6   &kp MINUS &kp EQUAL
-   &kp LSHFT  &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &kp ASTRK &kp K1   &kp N2 &kp N3   &kp FSLH  &none
+  &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RET
                                         &kp LGUI     &trans       &kp BSPC       &kp SPACE &kp N0   &kp DOT
                         >;
                 };
