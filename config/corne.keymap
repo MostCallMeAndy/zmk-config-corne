@@ -44,10 +44,10 @@
                 raise_layer {
                       display-name = "Raise Layer";
 // -----------------------------------------------------------------------------------------
- |   ~  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  |  |
- | CTRL |  (  |  )  |  [  |  ]  |     |   | LFT | DWN | UP  | RGT |     |  `  |
- | SHFT |     |     |  {  |  }  |     |   |     |     |     |     |     |     |
-                    | GUI |     | SPC |   | ENT |     | ALT |
+// |   ~  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  |  |
+// | CTRL |  (  |  )  |  [  |  ]  |     |   | LFT | DWN | UP  | RGT |     |  `  |
+// | SHFT |     |     |  {  |  }  |     |   |     |     |     |     |     |     |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TILDE &kp EXCL &kp AT   &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR &kp PIPE
    &kp LCTRL &kp LPAR &kp RPAR &kp LBKT &kp RBKT &trans      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none    &kp GRAVE
